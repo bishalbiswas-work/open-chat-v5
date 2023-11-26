@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Facebook SDK -->
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          appId: "267736178943787", // Replace with your App ID
+          cookie: true,
+          xfbml: true,
+          version: "v17.0",
+        });
+      };
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
+
+    <div style="height: 200px"></div>
+    <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+    <stripe-pricing-table
+      pricing-table-id="prctbl_1NugVVJCMgay6huUt6gGtpcq"
+      publishable-key="pk_live_51N3MYEJCMgay6huUOUBvatIbpLSR6gnYSDsUrPY8OwAVcz9yB6PA7I7xSuCUwho7NXhW3pDoJq942nAQywickLmV00DUXpqbcf"
+    >
+    </stripe-pricing-table>
+  </body>
+</html>

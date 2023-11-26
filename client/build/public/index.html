@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/logo.ico" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Open+Sans:400|Montserrat:400,700|Poppins:300,400,600|Inter:400,600|DM+Sans:400,700");
+      @font-face {
+        font-family: "Helvetica-Bold";
+        src: url("https://fonts.animaapp.com/Helvetica-Bold") format("truetype");
+      }
+
+      @font-face {
+        font-family: "Helvetica-Regular";
+        src: url("https://fonts.animaapp.com/Helvetica-Regular")
+          format("truetype");
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,700;9..40,800;9..40,900&family=Inter:wght@300;400;500;700;800&family=Poppins:ital,wght@0,400;0,500;0,700;0,800;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+      * {
+        -webkit-font-smoothing: antialiased;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0px;
+        height: 100%;
+        font-family: "Poppins", sans-serif !important;
+      }
+      /* a blue color as a generic focus style */
+      button:focus-visible {
+        outline: 2px solid #4a90e2 !important;
+        outline: -webkit-focus-ring-color auto 5px !important;
+      }
+      a {
+        text-decoration: none;
+      }
+      .style {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+    <!--
+      Notice the use of %PUBLIC_URL% in the tag above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <!-- Hotjar Tracking Code for https://messengergpt.pro/ -->
+    <meta
+      name="facebook-domain-verification"
+      content="i779nuj6l6ovhoq4nsmbk6ozwo8xma"
+    />
+
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3651670, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+    <title>Messenger GPT</title>
+  </head>
+  <body>
+    <!-- Facebook SDK -->
+    <!-- <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          appId: "267736178943787", // Replace with your App ID
+          cookie: true,
+          xfbml: true,
+          version: "v17.0",
+        });
+      };
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script> -->
+
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start`.
+      To create a production bundle, use `npm run build`.
+    -->
+  </body>
+</html>
